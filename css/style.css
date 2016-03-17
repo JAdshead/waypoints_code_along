@@ -1,7 +1,7 @@
-*, *:after, *:before { 
-  -moz-box-sizing: border-box; 
-  -ms-box-sizing: border-box; 
-  box-sizing: border-box; 
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -15,10 +15,6 @@ nav li {
 section {
   height: 2000px;
   margin: 0 auto;
-}
-
-body, nav {
-  min-width: 1200px;
 }
 
 a {
@@ -58,10 +54,12 @@ nav {
   z-index: 999999999;
 }
 
+
 nav a {
   color: #fef7ff;
   line-height: 2em;
   display: inline-block;
+  width: 33.3%
 }
 
 a:hover {
@@ -125,9 +123,8 @@ a:hover {
   background: #f0d825;
   width: 250px;
   height: 250px;
-  border-radius: 200;
+  border-radius: 200px;
 }
-
 
 
 /*-------SUB------*/
@@ -144,8 +141,8 @@ a:hover {
   width: 40px;
   height: 20px;
   position: relative;
-  border-top-right-radius: 5;
-  border-top-left-radius: 5;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
   top: 10px;
   left: 180px;
 }
@@ -155,7 +152,7 @@ a:hover {
   background: radial-gradient(#f1eeee, #ffef4c);
   width: 23px;
   height: 23px;
-  border-radius: 400;
+  border-radius: 400px;
 }
 
 #viewport{
@@ -175,20 +172,20 @@ a:hover {
   position: relative;
   top: 2.5px;
   right: -5px;
-  border-top-right-radius: 100;
-  border-bottom-right-radius: 100;
-  border-bottom-left-radius: 30;
-  border-top-left-radius: 30;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
 }
 
 #body {
   background: #f0d825;
   width: 225px;
   height: 65px;
-  border-top-right-radius: 70;
-  border-bottom-right-radius: 70;
-  border-bottom-left-radius: 100;
-  border-top-left-radius: 100;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
   float: left;
   position: relative;
 }
@@ -231,14 +228,14 @@ a:hover {
   z-index: 2000;
   width: 250px;
   height: 250px;
-  border-radius: 200;
+  border-radius: 200px;
 }
 
 .peephole-dark {
   background: radial-gradient(#f1eeee, #0a2641 50%, #0a2641 );
   width: 40px;
   height: 40px;
-  border-radius: 400;
+  border-radius: 400px;
   position: absolute;
   top: 102;
 }
